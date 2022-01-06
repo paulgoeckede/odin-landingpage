@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,200&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 8px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  margin-top: auto;
+  min-height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-content {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  padding: 70px;
+  gap: 50px;
+}
+
+.top-content p {
+  color: #eee;
+}
+
+.top-content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.top-content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex: 1;
+}
+
+.top-content-right img {
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.top-content-left button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.middle-content {
+  text-align: center;
+  padding: 32px;
+}
+
+.middle-content h3 {
+  font-size: 36px;
+}
+
+.middle-content-cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px;
+}
+
+.card {
+  text-align: center;
+  font-size: 18px;
+  height: 400px;
+  width: 200px;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: 3px solid #0b3579;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.bottom-content {
+  background-color: #e5e7eb;
+  padding: 64px 254px;
+  font-size: 24px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+}
+
+.lowest-content {
+  padding: 64px 128px;
+}
+
+.lowest-content-card {
+  display: flex;
+  background: #3882f6;
+  padding: 32px;
+  border-radius: 10px;
+  color: white;
+  justify-content: space-around;
+}
+
+.lowest-content-card p {
+  color: #eee;
+}
+
+.lowest-content-card button {
+  background: #3882f6;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 8px 24px;
+  color: white;
+}
